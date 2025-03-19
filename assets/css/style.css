@@ -1,0 +1,42 @@
+/* Main Styles for CloudBicep Technologies */
+
+:root {
+    --primary-color: #0e2f5a;
+    --secondary-color: #10b981;
+    --accent-color: #3b82f6;
+    --text-color: #1f2937;
+    --light-bg: #f9fafb;
+    --dark-bg: #111827;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-4 {
+    margin-top: 2rem;
+}
+
+/* Header Styles */
+header {
+    background-color: var(--dark-bg);
+    color: white;
+    padding: 1rem 
